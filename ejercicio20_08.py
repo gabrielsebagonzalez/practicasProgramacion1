@@ -5,6 +5,6 @@ Fórmula B = B_inicial * (2^horas)"""
 bacterias_inicial = int(input("Ingrese la cantidad inicial de bacterias: "))
 horas = int(input("Ingrese la cantidad de horas: "))
 
-total_bacterias = bacterias_inicial * (2 ** horas)
+total_bacterias = bacterias_inicial * pow(2, horas)
 
 print(f"La cantidad de total de bacterias después de {horas} horas son: {total_bacterias}")
